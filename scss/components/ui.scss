@@ -1,0 +1,44 @@
+._title {
+   font-size: 36px;
+   color: $blue;
+   font-weight: 900;
+   line-height: 44px;
+   margin-bottom: 25px;
+   position: relative;
+   padding-left: 40px;
+   @media(max-width: 820px) {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+   }
+   &:before {
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 5px;
+    width: 23px;
+    height: 32px;
+    background: url('../../images/icons/item.svg') center center no-repeat;
+    background-size: cover;
+   }
+}
+
+.section {
+ padding-top: 90px;
+}
+
+.e-description {
+ font-size: 20px;
+ color: $dark;
+ line-height: 30px;
+ font-weight: 400;
+ padding-left: 40px;
+}
+
+.e-start {
+ font-size: 24px;
+ line-height: 29px;
+ color: $dark;
+ font-weight: 700;
+ padding-left: 40px;
+}
